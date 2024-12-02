@@ -1,4 +1,4 @@
-namespace Notes;
+namespace Notes.Views;
 
 public partial class NotePage : ContentPage
 {
@@ -25,5 +25,18 @@ public partial class NotePage : ContentPage
             File.Delete(_fileName);
 
         TextEditor.Text = string.Empty;
+    }
+    private void LoadNote(string fileName)
+    {
+        Models.Note noteModel = new Models.Note();
+        noteModel.Filename = fileName;
+
+        if (File.Exists(fileName))
+        {
+            noteModel.Date = File.GetCreationTime(fileName);
+            noteModel.Text = File.ReadAllText(fileName);
+        }
+
+        BindingContext = noteModel;
     }
 }
