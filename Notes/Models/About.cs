@@ -9,8 +9,8 @@ namespace Notes.Models
     internal class About
     {
         public string Title => AppInfo.Name;
-        public string Version => AppInfo.VersionString;
-        public string MoreInfoUrl => "https://aka.ms/maui";
-        public string Message => "This app is written in XAML and C# with .NET MAUI.";
+        public string Version => "ANGEL ARMANDO VELA TITUAÑA";
+        public string MoreInfoUrl { get; set; }
+        public string Message => "MAS VALE TARDE QUE NUNCA";
     }
 }

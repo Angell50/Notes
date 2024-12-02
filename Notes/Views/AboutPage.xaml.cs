@@ -5,7 +5,12 @@ public partial class AboutPage : ContentPage
 	public AboutPage()
 	{
 		InitializeComponent();
-	}
+
+        BindingContext = new Models.About
+        {
+            MoreInfoUrl = "https://www.youtube.com/watch?v=20GwG0dcAsA"
+        };
+    }
     private async void LearnMore_Clicked(object sender, EventArgs e)
     {
         if (BindingContext is Models.About about)
