@@ -6,12 +6,19 @@
 
     <!-- Note: For Android please see also Platforms\Android\Resources\values\colors.xml -->
 
-    <Color x:Key="Primary">#512BD4</Color>
-    <Color x:Key="PrimaryDark">#ac99ea</Color>
+    <Color x:Key="Primary">#FF0000</Color>
+    <!-- Rojo navideño -->
+    <Color x:Key="PrimaryDark">#B22222</Color>
+    <!-- Rojo oscuro -->
     <Color x:Key="PrimaryDarkText">#242424</Color>
-    <Color x:Key="Secondary">#DFD8F7</Color>
-    <Color x:Key="SecondaryDarkText">#9880e5</Color>
-    <Color x:Key="Tertiary">#2B0B98</Color>
+    <Color x:Key="Secondary">#00FF00</Color>
+    <!-- Verde navideño -->
+    <Color x:Key="SecondaryDarkText">#006400</Color>
+    <!-- Verde oscuro -->
+    <Color x:Key="Tertiary">#FFD700</Color>
+    <!-- Dorado -->
+    <Color x:Key="Background">#F5F5DC</Color>
+    <!-- Beige -->
 
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>
@@ -31,6 +38,7 @@
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
     <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource Background}"/>
     <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
     <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
 
