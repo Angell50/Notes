@@ -14,7 +14,7 @@
         <Label FontSize="22" Text="{Binding Version}" VerticalOptions="End" />
 
         <Label Text="{Binding Message}" />
-        <Button Text="VIVA QUITOOOOOO..."  Command="{Binding ShowMoreInfoCommand}" />
+        <Button Text="FELIZ NAVIDAAADDDDD..."  Command="{Binding ShowMoreInfoCommand}" />
     </VerticalStackLayout>
 
 </ContentPage>

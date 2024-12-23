@@ -11,9 +11,9 @@ namespace Notes.ViewModels
     internal class AboutViewModel
     {
         public string Title => AppInfo.Name;
-        public string Version => AppInfo.VersionString;
-        public string MoreInfoUrl => "https://aka.ms/maui";
-        public string Message => "This app is written in XAML and C# with .NET MAUI.";
+        public string Version => "FELIZ NAVIDAD, JINGLE BELLS, HOHOHO🎄🧑‍🎄🎁 ";
+        public string MoreInfoUrl => "https://www.tiktok.com/@andietoktok/video/7449159011057929505?lang=es&q=NAVIDAD%20PROGRAMADORES&t=1734924828361";
+        public string Message => "Santi, como deseo de navidad, quiero que todos pasemos el semestre";
         public ICommand ShowMoreInfoCommand { get; }
 
         public AboutViewModel()
