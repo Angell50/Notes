@@ -7,7 +7,7 @@
         <viewModels:AboutViewModel/>
     </ContentPage.BindingContext>
     <VerticalStackLayout Spacing="10" Margin="10">
-        <Image Source="imagen4.png"
+        <Image Source="imagen5.png"
                 SemanticProperties.Description="The dot net bot waving hello!"
                 HeightRequest="256" />
         <Label FontSize="22" FontAttributes="Bold" Text="{Binding Title}" VerticalOptions="End" />
